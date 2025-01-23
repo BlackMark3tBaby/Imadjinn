@@ -1,0 +1,21 @@
+name: imadjinn
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - librosa
+  - numpy
+  - scipy
+  - diffusers
+  - gradio
+  - matplotlib
+  - pip
+  - flask
+  - flask-socketio
+  - pip:
+    - vosk
+    - torch
+    - sounddevice
+    - opencv-python
+    - huggingface-hub
